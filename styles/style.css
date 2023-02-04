@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    
+ 
     
 }
 
@@ -98,11 +98,19 @@
 
 .footer .map_text {
     grid-area: 2/2/3/3;
-    
+    display: inline-block;
     justify-self: start;
     margin-left: 1rem;
     white-space: pre-line;
     align-self: center;
+}
+
+
+.f_inline {
+    grid-area: 2/1/3/3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .footer_text {
